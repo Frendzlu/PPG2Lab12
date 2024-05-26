@@ -1,0 +1,628 @@
+{
+    find_program_msvc_arch_x64_plat_windows_checktoolsh = {
+        ["link.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\link.exe]]
+    },
+    find_package_windows_x64_fetch_package_system = {
+        libogg_dcdaf449df644509bf01b69064ebff77_release_external = false,
+        libflac_546ae71e054144959f945fa10b315b78_release_external = false,
+        zlib_7f43608e74fd49838c965b1accf5308a_release_external = false,
+        libvorbis_e9da7a2db274470da4df35547b3d4a51_release_external = false,
+        ["openal-soft_a7a485379cbc48f982aa38269514fedd_release_external"] = false,
+        vorbisfile_e9da7a2db274470da4df35547b3d4a51_release_external = false,
+        freetype_278f789efb684897bfd08948bd857a56_release_external = false
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcc = {
+        ["cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\cl.exe]]
+    },
+    find_program_fetch_package_system = {
+        pkgconf = false,
+        cmake = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake]]
+    },
+    ["detect.sdks.find_vcpkgdir"] = false,
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_cl_sourceDependencies"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_/Wall"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cxx__-nologo_-O2"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cc_cxflags_-nologo_-MT"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_-MT"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cc_cxflags_-nologo_cl_external_includedir_experimental"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_cl_external_includedir"] = false,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cc_cxflags_-nologo_cl_external_includedir"] = false,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_-DNDEBUG"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_cl_external_includedir_experimental"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_/std:c++latest"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\link.exe_14.28.29336.0_ld_ldflags_-nologo -dynamicbase -nxcompat -machine:x64_/SUBSYSTEM:CONSOLE"] = true
+    },
+    find_program_fetch_package_xmake = {
+        pkgconf = false,
+        cmake = false
+    },
+    find_programver = {
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe"] = false,
+        ["C:\\Program Files\\xmake\\winenv\\bin\\curl"] = "8.2.1",
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\link.exe"] = "14.28.29336.0"
+    },
+    find_program = {
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\link.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\link.exe]],
+        ["7z"] = [[C:\Program Files\xmake\winenv\bin\7z]],
+        ["cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\cl.exe]],
+        ["vswhere.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe]],
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\cl.exe]],
+        ["msbuild.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\msbuild.exe]],
+        nim = false,
+        gzip = false,
+        pkgconf = false,
+        zig = false,
+        git = "git",
+        ping = "ping",
+        unzip = false,
+        ["pkg-config"] = false,
+        curl = [[C:\Program Files\xmake\winenv\bin\curl]],
+        cmake = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake]]
+    },
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::openal-soft_a7a485379cbc48f982aa38269514fedd_release_1.23.1"] = {
+            linkdirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]]
+            },
+            includedirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\include]]
+            },
+            version = "1.23.1",
+            defines = "AL_LIBTYPE_STATIC",
+            license = "LGPL-2.0",
+            static = true,
+            syslinks = {
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32"
+            },
+            links = {
+                "OpenAL32"
+            },
+            libfiles = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]]
+            }
+        },
+        ["xmake::libogg_dcdaf449df644509bf01b69064ebff77_release_v1.3.4_external"] = {
+            linkdirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]]
+            },
+            static = true,
+            links = {
+                "ogg"
+            },
+            sysincludedirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\include]]
+            },
+            version = "v1.3.4",
+            libfiles = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]]
+            }
+        },
+        ["xmake::openal-soft_a7a485379cbc48f982aa38269514fedd_release_1.23.1_external"] = {
+            linkdirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\include]]
+            },
+            version = "1.23.1",
+            defines = "AL_LIBTYPE_STATIC",
+            license = "LGPL-2.0",
+            static = true,
+            syslinks = {
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32"
+            },
+            links = {
+                "OpenAL32"
+            },
+            libfiles = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]]
+            }
+        },
+        ["xmake::zlib_7f43608e74fd49838c965b1accf5308a_release_v1.3.1"] = {
+            linkdirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]]
+            },
+            static = true,
+            license = "zlib",
+            version = "v1.3.1",
+            links = {
+                "zlib"
+            },
+            includedirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\include]]
+            },
+            libfiles = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]]
+            }
+        },
+        ["xmake::freetype_278f789efb684897bfd08948bd857a56_release_2.13.1"] = {
+            linkdirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]]
+            },
+            static = true,
+            license = "BSD",
+            version = "2.13.1",
+            links = {
+                "freetype"
+            },
+            includedirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\include\freetype2]]
+            },
+            libfiles = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]]
+            }
+        },
+        ["xmake::libogg_dcdaf449df644509bf01b69064ebff77_release_v1.3.4"] = {
+            linkdirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]]
+            },
+            static = true,
+            version = "v1.3.4",
+            links = {
+                "ogg"
+            },
+            includedirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\include]]
+            },
+            libfiles = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]]
+            }
+        },
+        ["xmake::sfml_13c68b5046914a83b9a10e7f3e750c46_release_2.6.0_external"] = {
+            linkdirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]]
+            },
+            version = "2.6.0",
+            libfiles = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-graphics.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-window.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-audio.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-network.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-system.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-main.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-audio-2.dll]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-graphics-2.dll]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-network-2.dll]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-system-2.dll]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-window-2.dll]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]]
+            },
+            components = {
+                main = {
+                    links = "sfml-main"
+                },
+                graphics = {
+                    links = "sfml-graphics"
+                },
+                audio = {
+                    links = "sfml-audio"
+                },
+                window = {
+                    links = "sfml-window"
+                },
+                network = {
+                    links = "sfml-network"
+                },
+                __base = {
+                    linkdirs = {
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib]],
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]]
+                    },
+                    syslinks = {
+                        "ole32",
+                        "shell32",
+                        "user32",
+                        "winmm",
+                        "kernel32"
+                    },
+                    sysincludedirs = {
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\include]],
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]]
+                    },
+                    links = {
+                        "freetype",
+                        "zlib",
+                        "FLAC",
+                        "ogg",
+                        "vorbisenc",
+                        "vorbisfile",
+                        "vorbis",
+                        "OpenAL32"
+                    },
+                    includedirs = {
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\include\freetype2]],
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\include]],
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\include]],
+                        [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\include]]
+                    },
+                    defines = {
+                        "FLAC__NO_DLL",
+                        "AL_LIBTYPE_STATIC"
+                    }
+                },
+                system = {
+                    links = "sfml-system",
+                    syslinks = "winmm"
+                }
+            },
+            license = "zlib",
+            shared = true,
+            syslinks = {
+                "winmm",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32"
+            },
+            links = {
+                "sfml-graphics",
+                "sfml-window",
+                "sfml-audio",
+                "sfml-network",
+                "sfml-system",
+                "sfml-main",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32"
+            },
+            static = true
+        },
+        ["xmake::libflac_546ae71e054144959f945fa10b315b78_release_1.4.3_external"] = {
+            defines = "FLAC__NO_DLL",
+            linkdirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]]
+            },
+            libfiles = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]]
+            },
+            license = "BSD",
+            links = {
+                "FLAC",
+                "ogg"
+            },
+            sysincludedirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]]
+            },
+            static = true,
+            version = "1.4.3"
+        },
+        ["xmake::zlib_7f43608e74fd49838c965b1accf5308a_release_v1.3.1_external"] = {
+            linkdirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]]
+            },
+            static = true,
+            license = "zlib",
+            links = {
+                "zlib"
+            },
+            sysincludedirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\include]]
+            },
+            libfiles = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]]
+            },
+            version = "v1.3.1"
+        },
+        ["xmake::freetype_278f789efb684897bfd08948bd857a56_release_2.13.1_external"] = {
+            linkdirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]]
+            },
+            static = true,
+            license = "BSD",
+            links = {
+                "freetype",
+                "zlib"
+            },
+            sysincludedirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\include\freetype2]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\include]]
+            },
+            libfiles = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]]
+            },
+            version = "2.13.1"
+        },
+        ["xmake::libvorbis_e9da7a2db274470da4df35547b3d4a51_release_1.3.7_external"] = {
+            linkdirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]]
+            },
+            static = true,
+            license = "BSD-3",
+            links = {
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg"
+            },
+            sysincludedirs = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]]
+            },
+            libfiles = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]]
+            },
+            version = "1.3.7"
+        }
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolar = {
+        ["link.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\link.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\cl.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\link.exe]]
+    },
+    find_programver_fetch_package_system = {
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake"] = "3.18.20081302-MSVC"
+    }
+}

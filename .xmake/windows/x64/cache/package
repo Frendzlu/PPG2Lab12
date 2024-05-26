@@ -1,0 +1,181 @@
+{
+    sfml = {
+        __enabled = true,
+        installdir = [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46]],
+        __components_deps = {
+            graphics = {
+                "window",
+                "system"
+            },
+            audio = "system",
+            window = "system",
+            network = "system",
+            system = "main"
+        },
+        includedirs = {
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\include\freetype2]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\include]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\include]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\include]]
+        },
+        shared = true,
+        envs = {
+            PATH = {
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\c\cmake\3.29.2\ae2ca291915949809139117c15e1db8a\bin]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\p\pkgconf\2.0.3\be5c11cb1b754512913eca4b14a1fb60\bin]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\bin]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\bin]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\bin]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\bin]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\bin]],
+                [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\bin]]
+            }
+        },
+        __components_orderlist = {
+            "graphics",
+            "window",
+            "audio",
+            "network",
+            "system",
+            "main"
+        },
+        linkdirs = {
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]]
+        },
+        __requirestr = "sfml >=2.6.0",
+        sysincludedirs = {
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\include]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]]
+        },
+        version = "2.6.0",
+        defines = {
+            "FLAC__NO_DLL",
+            "AL_LIBTYPE_STATIC"
+        },
+        __requireconfs = {
+            configs = {
+                shared = true
+            },
+            system = false,
+            alias = "sfml"
+        },
+        components = {
+            graphics = {
+                links = "sfml-graphics"
+            },
+            main = {
+                links = "sfml-main"
+            },
+            audio = {
+                links = "sfml-audio"
+            },
+            window = {
+                links = "sfml-window"
+            },
+            __base = {
+                linkdirs = {
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib]],
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]]
+                },
+                syslinks = {
+                    "ole32",
+                    "shell32",
+                    "user32",
+                    "winmm",
+                    "kernel32"
+                },
+                sysincludedirs = {
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\include]],
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]]
+                },
+                links = {
+                    "freetype",
+                    "zlib",
+                    "FLAC",
+                    "ogg",
+                    "vorbisenc",
+                    "vorbisfile",
+                    "vorbis",
+                    "OpenAL32"
+                },
+                includedirs = {
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\include\freetype2]],
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\include]],
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\include]],
+                    [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\include]]
+                },
+                defines = {
+                    "FLAC__NO_DLL",
+                    "AL_LIBTYPE_STATIC"
+                }
+            },
+            network = {
+                links = "sfml-network"
+            },
+            system = {
+                links = "sfml-system",
+                syslinks = "winmm"
+            }
+        },
+        license = "zlib",
+        syslinks = {
+            "winmm",
+            "ole32",
+            "shell32",
+            "user32",
+            "kernel32"
+        },
+        links = {
+            "sfml-graphics",
+            "sfml-window",
+            "sfml-audio",
+            "sfml-network",
+            "sfml-system",
+            "sfml-main",
+            "freetype",
+            "zlib",
+            "FLAC",
+            "ogg",
+            "vorbisenc",
+            "vorbisfile",
+            "vorbis",
+            "OpenAL32"
+        },
+        static = true,
+        libfiles = {
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-graphics.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-window.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-audio.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-network.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-system.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-main.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-audio-2.dll]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-graphics-2.dll]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-network-2.dll]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-system-2.dll]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-window-2.dll]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+            [[C:\Users\Frendzel\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]]
+        }
+    }
+}
